@@ -50,7 +50,7 @@ const Projects = () => {
                                             style={{ display: 'block', textAlign: 'center' }}
                                         >
                                             <img
-                                                src="/icons/github-mark-white.png"
+                                                src="icons/github-mark-white.png"
                                                 alt="" width={50}
                                             />
                                         </Link>
