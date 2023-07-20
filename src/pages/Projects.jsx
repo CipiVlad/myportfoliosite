@@ -2,23 +2,22 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../../data.json'
-
+import { data } from "../data"
 const Projects = () => {
-    const [projectInfo, setProjectInfo] = useState([])
-    // const [toolIcons, setToolIcons] = useState([])
-    async function getProjects() {
-        const response = await axios.get('../../data.json');
-        const result = await response.data;
-        console.log(result);
-        setProjectInfo(response.data)
-        // setToolIcons(response.data.map((e => e.tools)))
-        // console.log(response.data.filter(e => e == e.id))
-    }
+    const [projectInfo, setProjectInfo] = useState(data)
+    // // const [toolIcons, setToolIcons] = useState([])
+    // async function getProjects() {
+    //     const response = await axios.get(projectInfo);
+    //     const result = await response.data;
+    //     console.log(result);
+    //     setProjectInfo(response.data)
+    //     // setToolIcons(response.data.map((e => e.tools)))
+    //     // console.log(response.data.filter(e => e == e.id))
+    // }
 
-    useEffect(() => {
-        getProjects()
-    }, [])
+    // useEffect(() => {
+    //     getProjects()
+    // }, [])
 
 
     return (
