@@ -18,6 +18,7 @@ const Projects = () => {
     // useEffect(() => {
     //     getProjects()
     // }, [])
+    console.log(projectInfo.map((e) => e.image));
 
 
     return (
@@ -49,7 +50,7 @@ const Projects = () => {
                                             style={{ display: 'block', textAlign: 'center' }}
                                         >
                                             <img
-                                                src="../../public/icons/github-mark-white.png"
+                                                src="/icons/github-mark-white.png"
                                                 alt="" width={50}
                                             />
                                         </Link>
