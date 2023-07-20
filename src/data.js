@@ -14,7 +14,7 @@ export const data =
                 "react-redux",
                 "MongoDB"
             ],
-            "image": "/images/Screenshot_Expense_Tracker.png"
+            "image": "images/Screenshot_Expense_Tracker.png"
         },
         {
             "id": 2,
@@ -29,7 +29,7 @@ export const data =
                 "",
                 ""
             ],
-            "image": "/images/beerLandingpage.png"
+            "image": "images/beerLandingpage.png"
         },
         {
             "id": 3,
@@ -43,6 +43,6 @@ export const data =
                 "jsonwebtoken",
                 "MongoDB"
             ],
-            "image": "/images/MERNAuth.png"
+            "image": "images/MERNAuth.png"
         }
     ]
