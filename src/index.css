@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(8, 8, 8);
+}
+
+header {
+    margin: 5vh;
+}
+
+
+/* headline colors */
+h2,
+h3 {
+    color: #fcd5d5;
+
+}
+
+
+.nav {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+.project_images {
+    display: block;
+    width: 750px;
+    margin: auto auto;
+}
+
+.card {
+    background-color: rgb(27, 27, 27);
+}
+
+.card-title {
+    color: #fcd5d5;
+}
+
+.card-text {
+    color: #fcebeb;
+}
