@@ -17,7 +17,10 @@ header {
 h2,
 h3 {
     color: #fcd5d5;
+}
 
+h6 {
+    text-align: center;
 }
 
 

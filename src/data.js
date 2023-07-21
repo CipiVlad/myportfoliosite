@@ -2,8 +2,8 @@ export const data =
     [
         {
             "id": 1,
-            "title": "expense saving tracker",
-            "description": "This is expense saving tracker ... ",
+            "title": "Expense Tracker",
+            "description": "This is a expense, saving and investment tracker displaying result in a pie chart.",
             "link": "",
             "gitlink": "https://github.com/CipiVlad/expense_saving_tracker.git",
             "tools": [
@@ -18,8 +18,8 @@ export const data =
         },
         {
             "id": 2,
-            "title": "beer API",
-            "description": "Here we have collection of beers...",
+            "title": "Beer API",
+            "description": "Here we have collection of beers...fetching juicy data from an API.",
             "link": "https://62abafa2520be74377b40a8d--candid-otter-c6c4d9.netlify.app",
             "gitlink": "https://github.com/CipiVlad/react_beer_API.git",
             "tools": [
@@ -44,9 +44,10 @@ export const data =
                 "MongoDB"
             ],
             "image": "images/MERNAuth.png"
-        }, {
+        },
+        {
             "id": 4,
-            "title": "Shopping List",
+            "title": "Shopping Products",
             "description": "Basic Shopping List with Detail Page. Store handling with Redux.",
             "link": "",
             "gitlink": "https://github.com/CipiVlad/react_redux_Products_dummyJSON.git",
@@ -57,5 +58,19 @@ export const data =
                 ""
             ],
             "image": "images/shoppinlist.png"
-        }
+        },
+        {
+            "id": 5,
+            "title": "Random JSON Generator",
+            "description": "Save time and quickly generate random JSON output with this CLI Tool.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/create-random-json-tool-.git",
+            "tools": [
+                "NodeJS",
+                "CommanderJS",
+                "",
+                ""
+            ],
+            "image": "images/ranjson -sa 3 -cp.png"
+        },
     ]
