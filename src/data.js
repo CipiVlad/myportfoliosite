@@ -44,5 +44,18 @@ export const data =
                 "MongoDB"
             ],
             "image": "images/MERNAuth.png"
+        }, {
+            "id": 4,
+            "title": "Shopping List",
+            "description": "Basic Shopping List with Detail Page. Store handling with Redux.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/react_redux_Products_dummyJSON.git",
+            "tools": [
+                "React",
+                "Redux",
+                "",
+                ""
+            ],
+            "image": "images/shoppinlist.png"
         }
     ]
