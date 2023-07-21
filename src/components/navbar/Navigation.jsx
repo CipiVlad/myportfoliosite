@@ -12,7 +12,7 @@ const Navigation = () => {
                 <Container style={{ justifyContent: 'center' }}>
                     {/* <Navbar.Brand >My Portfolio Site</Navbar.Brand> */}
                     <Nav >
-                        <Nav.Link as={Link} to="/myportfoliosite" >Projects</Nav.Link>
+                        <Nav.Link as={Link} to="/myportfoliosite/" >Projects</Nav.Link>
                         <Nav.Link as={Link} to="/background" >Background</Nav.Link>
                         <Nav.Link as={Link} to="/snippets" >Snippets</Nav.Link>
                     </Nav>

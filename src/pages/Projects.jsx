@@ -66,11 +66,8 @@ const Projects = () => {
                             :
                             (<GrowSpinner />)
                     }
-
                 </div>
             </div>
-
-
         </>
     )
 }
