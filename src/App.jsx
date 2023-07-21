@@ -11,7 +11,7 @@ import Background from './pages/Background'
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      {/* <Navigation /> */}
       <Routes>
         <Route path='/myportfoliosite' element={<Projects />}></Route>
         <Route path='/snippets' element={<Snippets />}></Route>

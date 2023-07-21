@@ -24,7 +24,7 @@ const Projects = () => {
     return (
         <>
             <header>
-                <h2>Project Selection</h2>
+                <h2 >Project Samples</h2>
                 <h6>(if images won't laod immediatly, don't be mad: hit refresh and take a deep breath.)</h6>
             </header>
             <div class="container" >
