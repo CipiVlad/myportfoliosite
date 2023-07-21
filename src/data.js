@@ -78,7 +78,7 @@ export const data =
             "title": "Python QR-Code Generator",
             "description": "Follow the CLI Interview and generate your own WiFi QR-Code.",
             "link": "",
-            "gitlink": "https://github.com/CipiVlad/create-random-json-tool-.git",
+            "gitlink": "https://github.com/CipiVlad/python_QR-Code-Generator.git",
             "tools": [
                 "Python",
                 "Bash",
