@@ -18,12 +18,8 @@ const Projects = () => {
     // }
 
     useEffect(() => {
-        const reloadUsingLocationHash = () => {
-            window.location.hash = "reload";
-        }
-        window.onload = reloadUsingLocationHash();
+        setProjectInfo(projectInfo)
     }, [])
-
 
     return (
         <>
