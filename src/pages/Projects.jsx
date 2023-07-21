@@ -17,10 +17,12 @@ const Projects = () => {
     //     // console.log(response.data.filter(e => e == e.id))
     // }
 
-    // useEffect(() => {
-    //     getProjects()
-    // }, [])
-    console.log(projectInfo.map((e) => e.image));
+    useEffect(() => {
+        const reloadUsingLocationHash = () => {
+            window.location.hash = "reload";
+        }
+        window.onload = reloadUsingLocationHash();
+    }, [])
 
 
     return (
@@ -28,7 +30,6 @@ const Projects = () => {
             <header>
                 <h2>Project Selection</h2>
             </header>
-
             <div class="container" >
                 <div class="row">
                     {
