@@ -73,4 +73,18 @@ export const data =
             ],
             "image": "images/ranjson -sa 3 -cp.png"
         },
+        {
+            "id": 6,
+            "title": "Python QR-Code Generator",
+            "description": "Follow the CLI Interview and generate your own WiFi QR-Code.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/create-random-json-tool-.git",
+            "tools": [
+                "Python",
+                "Bash",
+                "",
+                ""
+            ],
+            "image": "images/cli_prompt_qrcode.png"
+        },
     ]
