@@ -1,6 +1,20 @@
 export const data =
     [
         {
+            "id": 0,
+            "title": "techNotes",
+            "description": "An awsome MERN-Stack Project created by Dave Gray, including JSON Web Token, Redux Toolkit and many useful features.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/techNotes_MERN-Stack_React_Redux_RTK-Query.git",
+            "tools": [
+                "React",
+                "express",
+                "jsonwebtoken",
+                "MongoDB"
+            ],
+            "image": "images/technotes.png"
+        },
+        {
             "id": 1,
             "title": "Expense Tracker",
             "description": "This is a expense, saving and investment tracker displaying result in a pie chart.",
