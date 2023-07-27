@@ -16,6 +16,20 @@ export const data =
         },
         {
             "id": 1,
+            "title": "vanilla typescript List",
+            "description": "Small Typescript project. A code along with Dave Gray.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/typescript_vanilla_simpleNotes.git",
+            "tools": [
+                "React",
+                "express",
+                "jsonwebtoken",
+                "MongoDB"
+            ],
+            "image": "images/typescript_list.png"
+        },
+        {
+            "id": 2,
             "title": "Expense Tracker",
             "description": "This is a expense, saving and investment tracker displaying result in a pie chart.",
             "link": "",
@@ -31,7 +45,7 @@ export const data =
             "image": "images/Screenshot_Expense_Tracker.png"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Beer API",
             "description": "Here we have collection of beers...fetching juicy data from an API.",
             "link": "https://62abafa2520be74377b40a8d--candid-otter-c6c4d9.netlify.app",
@@ -46,9 +60,9 @@ export const data =
             "image": "images/beerLandingpage.png"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "MERN Auth - HttpOnly",
-            "description": "Store JWT in HttpOnly-Cookie",
+            "description": "Store JWT in HttpOnly-Cookie. Code along with TraversyMedia.",
             "link": "https://mern-auth-frontend-777q.onrender.com/",
             "gitlink": "https://github.com/CipiVlad/mern-auth.git",
             "tools": [
@@ -60,7 +74,7 @@ export const data =
             "image": "images/MERNAuth.png"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Shopping Products",
             "description": "Basic Shopping List with Detail Page. Store handling with Redux.",
             "link": "",
@@ -74,7 +88,7 @@ export const data =
             "image": "images/shoppinlist.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Random JSON Generator",
             "description": "Save time and quickly generate random JSON output with this CLI Tool.",
             "link": "",
@@ -88,7 +102,7 @@ export const data =
             "image": "images/ranjson -sa 3 -cp.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Python QR-Code Generator",
             "description": "Follow the CLI Interview and generate your own WiFi QR-Code.",
             "link": "",
