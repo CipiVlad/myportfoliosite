@@ -16,12 +16,13 @@ export const data =
         },
         {
             "id": 1,
-            "title": "vanilla typescript List",
+            "title": "Vanilla TypeScript List",
             "description": "Small Typescript project. A code along with Dave Gray.",
             "link": "",
             "gitlink": "https://github.com/CipiVlad/typescript_vanilla_simpleNotes.git",
             "tools": [
                 "React",
+                "TypeScript",
                 "express",
                 "jsonwebtoken",
                 "MongoDB"
@@ -114,5 +115,20 @@ export const data =
                 ""
             ],
             "image": "images/cli_prompt_qrcode.png"
+        },
+        {
+            "id": 7,
+            "title": "The Wiki - API. NextJS with TypeScript",
+            "description": "Dave Gray NextJS Course.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/dave_gray_nextjs_course/tree/main/small_project/next-ts-small-project",
+            "tools": [
+                "NextJS",
+                "TypeScript",
+                "Tailwind",
+                "",
+                ""
+            ],
+            "image": "images/nextjs_wikirocket_home.png"
         },
     ]
