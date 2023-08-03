@@ -2,17 +2,17 @@ export const data =
     [
         {
             "id": 0,
-            "title": "techNotes",
-            "description": "An awsome MERN-Stack Project created by Dave Gray, including JSON Web Token, Redux Toolkit and many useful features.",
+            "title": "bookingNotes",
+            "description": "An App for BnB Admins to keep a smooth workflow going. Still a work in progress.",
             "link": "",
-            "gitlink": "https://github.com/CipiVlad/techNotes_MERN-Stack_React_Redux_RTK-Query.git",
+            "gitlink": "https://github.com/CipiVlad/bookingNotes.git",
             "tools": [
                 "React",
-                "express",
-                "jsonwebtoken",
-                "MongoDB"
+                "React-bootstrap",
+                "json-server",
+                ""
             ],
-            "image": "images/technotes.png"
+            "image": "images/bookingNotes/bookingNotes.png"
         },
         {
             "id": 1,
@@ -130,5 +130,19 @@ export const data =
                 ""
             ],
             "image": "images/nextjs_wikirocket_home.png"
+        },
+        {
+            "id": 8,
+            "title": "techNotes",
+            "description": "An awsome MERN-Stack Project created by Dave Gray, including JSON Web Token, Redux Toolkit and many useful features.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/techNotes_MERN-Stack_React_Redux_RTK-Query.git",
+            "tools": [
+                "React",
+                "express",
+                "jsonwebtoken",
+                "MongoDB"
+            ],
+            "image": "images/technotes.png"
         },
     ]
