@@ -3,7 +3,7 @@ export const data =
         {
             "id": 0,
             "title": "bookingNotes",
-            "description": "An App for BnB Admins to keep a smooth workflow going. Still a work in progress.",
+            "description": "An App for BnB Admins to keep a smooth workflow going. In progress.",
             "link": "",
             "gitlink": "https://github.com/CipiVlad/bookingNotes.git",
             "tools": [
@@ -144,5 +144,19 @@ export const data =
                 "MongoDB"
             ],
             "image": "images/technotes.png"
+        },
+        {
+            "id": 9,
+            "title": "TypeScript/React Todo App",
+            "description": "A FreeCodeCamp Project using Framer Motion and LocalStorage.",
+            "link": "",
+            "gitlink": "https://github.com/CipiVlad/ts_react_freeCodeCamp_todo.git",
+            "tools": [
+                "React",
+                "TypeScript",
+                "Framer Motion",
+                "Local Storage"
+            ],
+            "image": "images/ts_react_todo.png"
         },
     ]
