@@ -88,7 +88,7 @@ const Projects = () => {
                     <img src="images/namibiasnonine_screenshot.png" alt="namibiasnumbernine screenshot" width={220} height={110} />
                 </Link>
                 <Link to="https://genussart.club/">
-                    <img src="images/genussart_screenshot.png" alt="genussart screenshot" width={220} height={110} />
+                    <img src="/images/genussart_screenshot.png" alt="genussart screenshot" width={220} height={110} />
                 </Link>
             </div >
 
@@ -102,7 +102,7 @@ const Projects = () => {
                     <img src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="frotnendmentor.io" />
                 </Link>
                 <Link to={"https://github.com/CipiVlad"}>
-                    <img src="/public/icons/github-mark.png" alt="github" width={"40"} />
+                    <img src="/icons/github-mark.png" alt="github" width={"40"} />
                 </Link>
 
             </footer>
