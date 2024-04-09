@@ -7,15 +7,6 @@ import GrowSpinner from "../components/GrowSpinner"
 
 const Projects = () => {
     const [projectInfo, setProjectInfo] = useState(data)
-    // // const [toolIcons, setToolIcons] = useState([])
-    // async function getProjects() {
-    //     const response = await axios.get(projectInfo);
-    //     const result = await response.data;
-    //     console.log(result);
-    //     setProjectInfo(response.data)
-    //     // setToolIcons(response.data.map((e => e.tools)))
-    //     // console.log(response.data.filter(e => e == e.id))
-    // }
 
     useEffect(() => {
         setProjectInfo(projectInfo)
@@ -24,8 +15,8 @@ const Projects = () => {
     return (
         <>
             <header>
-                <h2 >Project Samples</h2>
-                <h6>(if images won't laod immediatly, don't be mad: hit refresh and take a deep breath.)</h6>
+                <h1 >Welcome To My Portfolio Site</h1>
+                <h3 >Just Click The Icons To See The Code Or Live Demo</h3>
             </header>
             <div class="container" >
                 <div class="row">
@@ -36,7 +27,10 @@ const Projects = () => {
 
                                 <div class="col-md-12" key={index} style={{ marginBottom: "14vh" }}>
                                     <div class="d-flex justify-content-center align-items-center">
-                                        <div class="card" style={{ width: "45rem" }}>
+                                        <div class="card" style={{
+                                            width: "45rem", border: "none",
+                                            boxShadow: "0px 22px 20px 6px rgba(1, 1, 1, 0.2)",
+                                        }}>
                                             <img
                                                 class="class-img-top"
                                                 src={e.image}
@@ -46,7 +40,7 @@ const Projects = () => {
                                                 <h4 class="card-title">{e.title}</h4>
                                                 <p class="card-text">{e.description}</p>
                                             </div>
-                                            <div class="card-footer">
+                                            <div class="card-footer d-flex justify-content-center">
                                                 <Link
                                                     to={e.gitlink}
                                                     class="btn"
@@ -54,6 +48,17 @@ const Projects = () => {
                                                 >
                                                     <img
                                                         src="icons/github-mark-white.png"
+                                                        alt="" width={50}
+                                                    />
+                                                </Link>
+
+                                                <Link
+                                                    to={e.link}
+                                                    class="btn"
+                                                    style={{ display: 'block', textAlign: 'center' }}
+                                                >
+                                                    <img
+                                                        src="/public/icons/live.png"
                                                         alt="" width={50}
                                                     />
                                                 </Link>

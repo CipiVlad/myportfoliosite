@@ -4,82 +4,57 @@ export const data =
 
         {
             "id": 0,
-            "title": "bookingNotes",
-            "description": "An App for BnB Admins to keep a smooth workflow going. In progress.",
+            "title": "This is a Multi Step Form Web App.",
+            "description": "Built in Typescript, React and SCSS.",
+            "link": "https://multistep-fm-challenge.netlify.app/",
+            "gitlink": "https://github.com/CipiVlad/multi_step_form",
+            "tools": [
+                "React",
+                "Typescript",
+                "React Router",
+                "vite",
+                "SCSS",
+                "figma"
+
+            ],
+            "image": "images/multiform_webapp.png"
+        },
+
+        {
+            "id": 1,
+            "title": "An E-commerce Web App",
+            "description": "Showcase of a E-commerce Web App Landing Page.",
+            "link": "https://cipivlad.github.io/ecommerce-product-page/",
+            "gitlink": "https://github.com/CipiVlad/ecommerce-product-page",
+            "tools": [
+                "React",
+                "Typescript",
+                "React Router",
+                "vite",
+                "SCSS",
+                "figma"
+
+            ],
+            "image": "images/sneakers-project.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Booking Notes Panel for Admins",
+            "description": "An App for BnB Admins to keep a smooth workflow going.",
             "link": "",
             "gitlink": "https://github.com/CipiVlad/bookingNotes.git",
             "tools": [
                 "React",
                 "React-bootstrap",
                 "json-server",
-                ""
+                "MUI"
             ],
             "image": "images/bookingNotes/bookingNotes.png"
         },
-        // {
-        //     "id": 1,
-        //     "title": "Vanilla TypeScript List",
-        //     "description": "Small Typescript project. A code along with Dave Gray.",
-        //     "link": "",
-        //     "gitlink": "https://github.com/CipiVlad/typescript_vanilla_simpleNotes.git",
-        //     "tools": [
-        //         "React",
-        //         "TypeScript",
-        //         "express",
-        //         "jsonwebtoken",
-        //         "MongoDB"
-        //     ],
-        //     "image": "images/typescript_list.png"
-        // },
-        // {
-        //     "id": 2,
-        //     "title": "Expense Tracker",
-        //     "description": "This is a expense, saving and investment tracker displaying result in a pie chart.",
-        //     "link": "",
-        //     "gitlink": "https://github.com/CipiVlad/expense_saving_tracker.git",
-        //     "tools": [
-        //         "React",
-        //         "Tailwind",
-        //         "chart.js",
-        //         "@reduxjs/toolkit",
-        //         "react-redux",
-        //         "MongoDB"
-        //     ],
-        //     "image": "images/Screenshot_Expense_Tracker.png"
-        // },
-        // {
-        //     "id": 3,
-        //     "title": "Beer API",
-        //     "description": "Here we have collection of beers...fetching juicy data from an API.",
-        //     "link": "https://62abafa2520be74377b40a8d--candid-otter-c6c4d9.netlify.app",
-        //     "gitlink": "https://github.com/CipiVlad/react_beer_API.git",
-        //     "tools": [
-        //         "React",
-        //         "",
-        //         "",
-        //         "",
-        //         ""
-        //     ],
-        //     "image": "images/beerLandingpage.png"
-        // },
-        // {
-        //     "id": 4,
-        //     "title": "MERN Auth - HttpOnly",
-        //     "description": "Store JWT in HttpOnly-Cookie. Code along with TraversyMedia.",
-        //     "link": "https://mern-auth-frontend-777q.onrender.com/",
-        //     "gitlink": "https://github.com/CipiVlad/mern-auth.git",
-        //     "tools": [
-        //         "React",
-        //         "express",
-        //         "jsonwebtoken",
-        //         "MongoDB"
-        //     ],
-        //     "image": "images/MERNAuth.png"
-        // },
         {
-            "id": 2,
+            "id": 3,
             "title": "Shopping Products",
-            "description": "Basic Shopping List with Detail Page. Store handling with Redux.",
+            "description": "Shopping List with Detail Page. Store handling with Redux.",
             "link": "",
             "gitlink": "https://github.com/CipiVlad/react_redux_Products_dummyJSON.git",
             "tools": [
@@ -91,7 +66,7 @@ export const data =
             "image": "images/shoppinlist.png"
         },
         {
-            "id": 6,
+            "id": 4,
             "title": "Random JSON Generator",
             "description": "Save time and quickly generate random JSON output with this CLI Tool.",
             "link": "",
@@ -105,7 +80,7 @@ export const data =
             "image": "images/ranjson -sa 3 -cp.png"
         },
         {
-            "id": 7,
+            "id": 5,
             "title": "Python QR-Code Generator",
             "description": "Follow the CLI Interview and generate your own WiFi QR-Code.",
             "link": "",
@@ -119,47 +94,33 @@ export const data =
             "image": "images/cli_prompt_qrcode.png"
         },
         // {
-        //     "id": 7,
-        //     "title": "The Wiki - API. NextJS with TypeScript",
-        //     "description": "Dave Gray NextJS Course.",
+        //     "id": 4,
+        //     "title": "Random JSON Generator",
+        //     "description": "Save time and quickly generate random JSON output with this CLI Tool.",
         //     "link": "",
-        //     "gitlink": "https://github.com/CipiVlad/dave_gray_nextjs_course/tree/main/small_project/next-ts-small-project",
+        //     "gitlink": "https://github.com/CipiVlad/create-random-json-tool-.git",
         //     "tools": [
-        //         "NextJS",
-        //         "TypeScript",
-        //         "Tailwind",
+        //         "NodeJS",
+        //         "CommanderJS",
         //         "",
         //         ""
         //     ],
-        //     "image": "images/nextjs_wikirocket_home.png"
+        //     "image": "images/ranjson -sa 3 -cp.png"
         // },
         // {
-        //     "id": 8,
-        //     "title": "techNotes",
-        //     "description": "An awsome MERN-Stack Project created by Dave Gray, including JSON Web Token, Redux Toolkit and many useful features.",
+        //     "id": 5,
+        //     "title": "Python QR-Code Generator",
+        //     "description": "Follow the CLI Interview and generate your own WiFi QR-Code.",
         //     "link": "",
-        //     "gitlink": "https://github.com/CipiVlad/techNotes_MERN-Stack_React_Redux_RTK-Query.git",
+        //     "gitlink": "https://github.com/CipiVlad/python_QR-Code-Generator.git",
         //     "tools": [
-        //         "React",
-        //         "express",
-        //         "jsonwebtoken",
-        //         "MongoDB"
+        //         "Python",
+        //         "Bash",
+        //         "",
+        //         ""
         //     ],
-        //     "image": "images/technotes.png"
+        //     "image": "images/cli_prompt_qrcode.png"
         // },
-        // {
-        //     "id": 9,
-        //     "title": "TypeScript/React Todo App",
-        //     "description": "A FreeCodeCamp Project using Framer Motion and LocalStorage.",
-        //     "link": "",
-        //     "gitlink": "https://github.com/CipiVlad/ts_react_freeCodeCamp_todo.git",
-        //     "tools": [
-        //         "React",
-        //         "TypeScript",
-        //         "Framer Motion",
-        //         "Local Storage"
-        //     ],
-        //     "image": "images/ts_react_todo.png"
-        // },
+
 
     ]
