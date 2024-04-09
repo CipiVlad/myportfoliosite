@@ -63,7 +63,7 @@ const Projects = () => {
                                                     style={{ display: 'block', textAlign: 'center' }}
                                                 >
                                                     <img
-                                                        src="/public/icons/live.png"
+                                                        src="icons/live.png"
                                                         alt="" width={50}
                                                     />
                                                 </Link>
