@@ -1,4 +1,3 @@
-import axios from "axios"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -22,6 +21,7 @@ const Projects = () => {
                     </div>
                     <img src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F856357%2Fa29e8a17-c60d-4dc5-8488-4e089994e7b2.jpg" alt="profile" />
                 </div>
+
             </header>
             <div class="container" >
                 <div class="row">
@@ -93,8 +93,6 @@ const Projects = () => {
             </div >
 
             <footer>
-                <p>Made with &hearts; by CipiVlad. All rights reserved.</p>
-                <p>visit me on: </p>
                 <Link to={"https://dev.to/cipivlad"}>
                     <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt="dev.to" width={"40"} />
                 </Link>
@@ -105,6 +103,7 @@ const Projects = () => {
                     <img src="icons/github-mark-white.png" alt="github" width={"40"} />
                 </Link>
 
+                <p>Made with &hearts; by Cipi. All rights reserved.</p>
             </footer>
         </>
     )

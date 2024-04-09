@@ -10,11 +10,12 @@ const Navigation = () => {
         <>
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container style={{ justifyContent: 'center' }}>
-                    {/* <Navbar.Brand >My Portfolio Site</Navbar.Brand> */}
                     <Nav >
                         <Nav.Link as={Link} to="/myportfoliosite" >Projects</Nav.Link>
-                        <Nav.Link as={Link} to="/background" >Background</Nav.Link>
-                        <Nav.Link as={Link} to="/snippets" >Snippets</Nav.Link>
+                        <Nav.Link as={Link} to="/myportfoliosite/snippets" >Snippets</Nav.Link>
+                        <Nav.Link as={Link} to="/myportfoliosite/in-progress" >In Progress</Nav.Link>
+                        <Nav.Link as={Link} to="/myportfoliosite/upcoming-projects" >Upcoming Projects</Nav.Link>
+                        <Nav.Link as={Link} to="/myportfoliosite/whoami" >#whoami</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

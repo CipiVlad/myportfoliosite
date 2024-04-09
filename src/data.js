@@ -1,7 +1,5 @@
 export const data =
     [
-
-
         {
             "id": 0,
             "title": "This is a Multi Step Form Web App.",
@@ -81,6 +79,37 @@ export const data =
             ],
             "image": "images/designshop_screenshot.png"
         },
+        {
+            "id": 5,
+            "title": "BnB Landing Page",
+            "description": "A bootstrap intro landing page template.",
+            "link": "https://cipivlad.github.io/bootstrap_intro_b-b_page/",
+            "gitlink": "https://github.com/CipiVlad/bootstrap_intro_b-b_page",
+            "tools": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                ""
+            ],
+            "image": "images/bnb_screenshot.png"
+        },
+        // {
+        //     "id": 6,
+        //     "title": "Ticketing Help Desk",
+        //     "description": "A help desk ticketing system.",
+        //     "link": "",
+        //     "gitlink": "",
+        //     "tools": [
+        //         "HTML",
+        //         "CSS",
+        //         "Bootstrap",
+        //         ""
+        //     ],
+        //     "image": ""
+        // },
+
+
+
 
         // {
         //     "id": 4,
