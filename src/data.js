@@ -41,7 +41,7 @@ export const data =
             "id": 2,
             "title": "Booking Notes Panel for Admins",
             "description": "An App for BnB Admins to keep a smooth workflow going.",
-            "link": "",
+            "link": "https://cipivlad.github.io/bookingNotes/",
             "gitlink": "https://github.com/CipiVlad/bookingNotes.git",
             "tools": [
                 "React",
@@ -65,34 +65,23 @@ export const data =
             ],
             "image": "images/shoppinlist.png"
         },
+
+
         {
             "id": 4,
-            "title": "Random JSON Generator",
-            "description": "Save time and quickly generate random JSON output with this CLI Tool.",
-            "link": "",
-            "gitlink": "https://github.com/CipiVlad/create-random-json-tool-.git",
+            "title": "The Design Shop",
+            "description": "A clean look and feel for your online store.",
+            "link": "https://cipivlad.github.io/PROJEKT-DESIGN-SHOP/",
+            "gitlink": "https://github.com/CipiVlad/PROJEKT-DESIGN-SHOP",
             "tools": [
-                "NodeJS",
-                "CommanderJS",
+                "HTML",
+                "CSS",
                 "",
                 ""
             ],
-            "image": "images/ranjson -sa 3 -cp.png"
+            "image": "images/designshop_screenshot.png"
         },
-        {
-            "id": 5,
-            "title": "Python QR-Code Generator",
-            "description": "Follow the CLI Interview and generate your own WiFi QR-Code.",
-            "link": "",
-            "gitlink": "https://github.com/CipiVlad/python_QR-Code-Generator.git",
-            "tools": [
-                "Python",
-                "Bash",
-                "",
-                ""
-            ],
-            "image": "images/cli_prompt_qrcode.png"
-        },
+
         // {
         //     "id": 4,
         //     "title": "Random JSON Generator",
@@ -121,6 +110,7 @@ export const data =
         //     ],
         //     "image": "images/cli_prompt_qrcode.png"
         // },
+
 
 
     ]
