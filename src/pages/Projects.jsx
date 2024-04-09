@@ -82,13 +82,13 @@ const Projects = () => {
             <div className="furtherProjects">
                 <h3>Visit Some Of My Real World and Live Projects made with CMS:</h3>
                 <Link to="https://www.seko-soko.de/">
-                    <img src="/public/images/refeelme_screenshot.png" alt="re-feel.me screenshot" width={220} height={110} />
+                    <img src="images/refeelme_screenshot.png" alt="re-feel.me screenshot" width={220} height={110} />
                 </Link>
                 <Link to="https://namibiasnumbernine.com/">
-                    <img src="/public/images/namibiasnonine_screenshot.png" alt="namibiasnumbernine screenshot" width={220} height={110} />
+                    <img src="images/namibiasnonine_screenshot.png" alt="namibiasnumbernine screenshot" width={220} height={110} />
                 </Link>
                 <Link to="https://genussart.club/">
-                    <img src="/public/images/genussart_screenshot.png" alt="genussart screenshot" width={220} height={110} />
+                    <img src="images/genussart_screenshot.png" alt="genussart screenshot" width={220} height={110} />
                 </Link>
             </div >
 
