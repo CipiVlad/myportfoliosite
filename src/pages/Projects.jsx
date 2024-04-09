@@ -15,8 +15,13 @@ const Projects = () => {
     return (
         <>
             <header>
-                <h1 >Welcome To My Portfolio Site</h1>
-                <h3 >Just Click The Icons To See The Code Or Live Demo</h3>
+                <div className="profile">
+                    <div>
+                        <h1 >Welcome To My Portfolio Site</h1>
+                        <h3 >Just Click The Icons To See The Code Or Live Demo</h3>
+                    </div>
+                    <img src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F856357%2Fa29e8a17-c60d-4dc5-8488-4e089994e7b2.jpg" alt="profile" />
+                </div>
             </header>
             <div class="container" >
                 <div class="row">
