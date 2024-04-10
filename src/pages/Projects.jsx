@@ -49,6 +49,7 @@ const Projects = () => {
                                                 <Link
                                                     to={e.gitlink}
                                                     class="btn"
+                                                    target="_blank"
                                                     style={{ display: 'block', textAlign: 'center' }}
                                                 >
                                                     <img
@@ -60,6 +61,7 @@ const Projects = () => {
                                                 <Link
                                                     to={e.link}
                                                     class="btn"
+                                                    target="_blank"
                                                     style={{ display: 'block', textAlign: 'center' }}
                                                 >
                                                     <img
