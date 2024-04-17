@@ -30,15 +30,33 @@ export const data =
                 "React Router",
                 "vite",
                 "SCSS",
-                "figma"
+                "figma",
+                "trello",
+                "framer motion"
 
             ],
             "image": "images/sneakers-project.jpg"
         },
         {
             "id": 2,
+            "title": "Pricing Components",
+            "description": "Built with React, Typescript and SCSS.",
+            "link": "https://cipivlad.github.io/pricing_components/",
+            "gitlink": "https://github.com/CipiVlad/pricing_components",
+            "tools": [
+                "React",
+                "Typescript",
+                "vite",
+                "SCSS",
+                "figma",
+
+            ],
+            "image": "images/screenshot_pricing_components.png"
+        },
+        {
+            "id": 3,
             "title": "Booking Notes Panel for Admins",
-            "description": "An App for BnB Admins to keep a smooth workflow going.",
+            "description": "An App for BnB Admins to keep a smooth workflow going. ",
             "link": "https://cipivlad.github.io/bookingNotes/",
             "gitlink": "https://github.com/CipiVlad/bookingNotes.git",
             "tools": [
@@ -49,20 +67,21 @@ export const data =
             ],
             "image": "images/bookingNotes/bookingNotes.png"
         },
-        {
-            "id": 3,
-            "title": "Shopping Products",
-            "description": "Shopping List with Detail Page. Store handling with Redux.",
-            "link": "",
-            "gitlink": "https://github.com/CipiVlad/react_redux_Products_dummyJSON.git",
-            "tools": [
-                "React",
-                "Redux",
-                "",
-                ""
-            ],
-            "image": "images/shoppinlist.png"
-        },
+
+        // {
+        //     "id": 3,
+        //     "title": "Shopping Products",
+        //     "description": "Shopping List with Detail Page. Store handling with Redux.",
+        //     "link": "",
+        //     "gitlink": "https://github.com/CipiVlad/react_redux_Products_dummyJSON.git",
+        //     "tools": [
+        //         "React",
+        //         "Redux",
+        //         "",
+        //         ""
+        //     ],
+        //     "image": "images/shoppinlist.png"
+        // },
 
 
         {
