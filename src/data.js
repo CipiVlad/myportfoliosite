@@ -58,7 +58,7 @@ export const data =
             "title": "Time Tracking Dashboard",
             "description": "This project focus lies on Grid and Flexbox.",
             "link": "https://cipivlad.github.io/time_tracking_dashboard/",
-            "gitlink": "https://github.com/CipiVlad/time_tracking_dashboard/actions",
+            "gitlink": "https://github.com/CipiVlad/time_tracking_dashboard",
             "tools": [
                 "React",
                 "typescript",
