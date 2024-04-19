@@ -55,6 +55,19 @@ export const data =
         },
         {
             "id": 3,
+            "title": "This app",
+            "description": "An App for BnB Admins to keep a smooth workflow going. ",
+            "link": "https://cipivlad.github.io/time_tracking_dashboard/",
+            "gitlink": "https://github.com/CipiVlad/time_tracking_dashboard/actions",
+            "tools": [
+                "React",
+                "typescript",
+                "scss"
+            ],
+            "image": "images/screenshot_timetrackingdashboard.png"
+        },
+        {
+            "id": 4,
             "title": "Booking Notes Panel for Admins",
             "description": "An App for BnB Admins to keep a smooth workflow going. ",
             "link": "https://cipivlad.github.io/bookingNotes/",
@@ -85,7 +98,7 @@ export const data =
 
 
         {
-            "id": 4,
+            "id": 5,
             "title": "The Design Shop",
             "description": "A clean look and feel for your online store.",
             "link": "https://cipivlad.github.io/PROJEKT-DESIGN-SHOP/",
@@ -99,7 +112,7 @@ export const data =
             "image": "images/designshop_screenshot.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "BnB Landing Page",
             "description": "A bootstrap intro landing page template.",
             "link": "https://cipivlad.github.io/bootstrap_intro_b-b_page/",
