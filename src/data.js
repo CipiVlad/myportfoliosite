@@ -55,8 +55,8 @@ export const data =
         },
         {
             "id": 3,
-            "title": "This app",
-            "description": "An App for BnB Admins to keep a smooth workflow going. ",
+            "title": "Time Tracking Dashboard",
+            "description": "This project focus lies on Grid and Flexbox.",
             "link": "https://cipivlad.github.io/time_tracking_dashboard/",
             "gitlink": "https://github.com/CipiVlad/time_tracking_dashboard/actions",
             "tools": [
