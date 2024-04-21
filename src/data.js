@@ -14,7 +14,7 @@ export const data =
                 "figma"
 
             ],
-            "image": "../public/images/sunnysite.png"
+            "image": "images/sunnysite.png"
         },
         {
             "id": 2,
