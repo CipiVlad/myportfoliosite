@@ -1,7 +1,7 @@
 export const data =
     [
         {
-            "id": -1,
+            "id": 1,
             "title": "Beautiful designed Landing Page.",
             "description": "VanillaJS, CSS and HTML.",
             "link": "https://sunny-side-landingpage-frontendmentor.netlify.app/",
@@ -14,10 +14,10 @@ export const data =
                 "figma"
 
             ],
-            "image": "images/sunnyside.png"
+            "image": "../public/images/sunnysite.png"
         },
         {
-            "id": 0,
+            "id": 2,
             "title": "This is a Multi Step Form Web App.",
             "description": "Built in Typescript, React and SCSS.",
             "link": "https://multistep-fm-challenge.netlify.app/",
@@ -35,7 +35,7 @@ export const data =
         },
 
         {
-            "id": 1,
+            "id": 3,
             "title": "An E-commerce Web App",
             "description": "Showcase of a E-commerce Web App Landing Page.",
             "link": "https://cipivlad.github.io/ecommerce-product-page/",
@@ -54,7 +54,7 @@ export const data =
             "image": "images/sneakers-project.jpg"
         },
         {
-            "id": 2,
+            "id": 4,
             "title": "Pricing Components",
             "description": "Built with React, Typescript and SCSS.",
             "link": "https://cipivlad.github.io/pricing_components/",
@@ -70,7 +70,7 @@ export const data =
             "image": "images/screenshot_pricing_components.png"
         },
         {
-            "id": 3,
+            "id": 5,
             "title": "Time Tracking Dashboard",
             "description": "This project focus lies on Grid and Flexbox.",
             "link": "https://cipivlad.github.io/time_tracking_dashboard/",
@@ -83,7 +83,7 @@ export const data =
             "image": "images/screenshot_timetrackingdashboard.png"
         },
         {
-            "id": 4,
+            "id": 6,
             "title": "Booking Notes Panel for Admins",
             "description": "An App for BnB Admins to keep a smooth workflow going. ",
             "link": "https://cipivlad.github.io/bookingNotes/",
