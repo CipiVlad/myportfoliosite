@@ -1,6 +1,22 @@
 export const data =
     [
         {
+            "id": -1,
+            "title": "Beautiful designed Landing Page.",
+            "description": "VanillaJS, CSS and HTML.",
+            "link": "https://sunny-side-landingpage-frontendmentor.netlify.app/",
+            "gitlink": "https://github.com/CipiVlad/sunnyside_agency_landing_page",
+            "tools": [
+                "JS",
+                "HTML",
+                "CSS",
+                "vite",
+                "figma"
+
+            ],
+            "image": "images/sunnyside.png"
+        },
+        {
             "id": 0,
             "title": "This is a Multi Step Form Web App.",
             "description": "Built in Typescript, React and SCSS.",
