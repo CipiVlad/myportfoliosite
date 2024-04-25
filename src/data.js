@@ -96,6 +96,20 @@ export const data =
             ],
             "image": "images/bookingNotes/bookingNotes.png"
         },
+        {
+            "id": 7,
+            "title": "Social Media Dashboard",
+            "description": "This App is built with tailwindcss, styled-components and React.",
+            "link": "https://cipivlad.github.io/social_media_dashboard",
+            "gitlink": "https://github.com/CipiVlad/social_media_dashboard",
+            "tools": [
+                "React",
+                "tailwindcss",
+                "styled-components",
+                "typescript"
+            ],
+            "image": "images/screenshot_scoialmedia_dashboard.png"
+        },
 
         // {
         //     "id": 3,
