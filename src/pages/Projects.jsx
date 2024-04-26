@@ -31,6 +31,7 @@ const Projects = () => {
 
             </header>
             <Swiper
+                initialSlide={3}
                 effect={'cards'}
                 grabCursor={true}
                 modules={[EffectCards]}
