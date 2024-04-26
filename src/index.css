@@ -92,7 +92,7 @@ header h3 {
 
 .furtherProjects img {
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     margin: 2vw;
     filter: blur(0.5px);
     transition: ease-in-out 0.5s;
@@ -100,7 +100,7 @@ header h3 {
 
 .furtherProjects img:hover {
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     margin: 2vw;
     transform: scale(1.1);
     filter: brightness(0.8);
@@ -115,4 +115,8 @@ footer {
 
 footer a {
     margin: 1vh;
+}
+
+.swiper-3d .swiper-slide-shadow {
+    background: none;
 }

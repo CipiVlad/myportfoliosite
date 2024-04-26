@@ -4,6 +4,13 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { data } from "../data"
 import GrowSpinner from "../components/GrowSpinner"
 
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import { EffectCards } from 'swiper/modules';
+
+
 const Projects = () => {
     const [projectInfo, setProjectInfo] = useState(data)
 
@@ -17,71 +24,84 @@ const Projects = () => {
                 <div className="profile">
                     <div>
                         <h1 >Welcome To My Portfolio Site</h1>
-                        {/* <h3 >Just Click The Icons To See The Code Or Live Demo</h3> */}
-                        <h3 >Just Click The GitHub Icon To See The Code </h3>
+                        <h3 >Just Swipe Through The Cards And Click The GitHub Icon To See The Code </h3>
                     </div>
                     <img src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F856357%2Fa29e8a17-c60d-4dc5-8488-4e089994e7b2.jpg" alt="profile" />
                 </div>
 
             </header>
-            <div class="container" >
-                <div class="row">
-                    {
+            <Swiper
+                effect={'cards'}
+                grabCursor={true}
+                modules={[EffectCards]}
+                className="mySwiper"
+            >
 
-                        projectInfo ?
-                            (projectInfo.map((e, index) => (
+                <div class="container" >
+                    <div class="row">
+                        {
 
-                                <div class="col-md-12" key={index} style={{ marginBottom: "14vh" }}>
-                                    <div class="d-flex justify-content-center align-items-center">
-                                        <div class="card" style={{
-                                            width: "45rem", border: "none",
-                                            boxShadow: "0px 22px 20px 6px rgba(1, 1, 1, 0.2)",
-                                        }}>
-                                            <img
-                                                class="class-img-top"
-                                                src={e.image}
-                                                alt={e.title}
-                                            />
-                                            <div class="card-body">
-                                                <h4 class="card-title">{e.title}</h4>
-                                                <p class="card-text">{e.description}</p>
-                                            </div>
-                                            <div class="card-footer d-flex justify-content-center">
-                                                <Link
-                                                    to={e.gitlink}
-                                                    class="btn"
-                                                    target="_blank"
-                                                    style={{ display: 'block', textAlign: 'center' }}
-                                                >
+                            projectInfo ?
+                                (projectInfo.map((e, index) => (
+
+
+
+                                    <div class="col-md-12" key={index} style={{ marginBottom: "14vh" }}>
+                                        <SwiperSlide>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <div class="card" style={{
+                                                    border: "none",
+                                                    // boxShadow: "0px 22px 20px 6px rgba(1, 1, 1, 0.2)",
+                                                    borderRadius: "10px",
+                                                    height: "900",
+                                                    width: "700px",
+                                                    objectFit: "cover",
+                                                    aspectRatio: "16/9",
+                                                    marginBottom: "5vh"
+                                                }}>
                                                     <img
-                                                        src="icons/github-mark-white.png"
-                                                        alt="" width={50}
-                                                    />
-                                                </Link>
+                                                        class="class-img-top"
+                                                        src={e.image}
+                                                        alt={e.title}
+                                                        style={{ height: "900", width: "700", aspectRatio: "16/9", objectFit: "cover" }}
 
-                                                {/* <Link
-                                                    to={e.link}
-                                                    class="btn"
-                                                    target="_blank"
-                                                    style={{ display: 'block', textAlign: 'center' }}
-                                                >
-                                                    <img
-                                                        src="icons/live.png"
-                                                        alt="" width={50}
                                                     />
-                                                </Link> */}
+                                                    <div class="card-body"
+                                                        style={{ height: "100px", overflow: "auto" }}
+                                                    >
+                                                        <h4 class="card-title">{e.title}</h4>
+                                                        <p class="card-text">{e.description}</p>
+                                                    </div>
+                                                    <div class="card-footer d-flex justify-content-center">
+                                                        <Link
+                                                            to={e.gitlink}
+                                                            class="btn"
+                                                            target="_blank"
+                                                            style={{ display: 'block', textAlign: 'center' }}
+                                                        >
+                                                            <img
+                                                                src="icons/github-mark-white.png"
+                                                                alt="" width={50}
+                                                            />
+                                                        </Link>
+
+
+
+
+                                                    </div>
+
+                                                </div>
                                             </div>
-
-                                        </div>
+                                        </SwiperSlide>
                                     </div>
-                                </div>
-                            ))
-                            )
-                            :
-                            (<GrowSpinner />)
-                    }
-                </div>
-            </div>
+                                ))
+                                )
+                                :
+                                (<GrowSpinner />)
+                        }
+                    </div>
+                </div >
+            </Swiper >
             <div className="furtherProjects">
                 <h3>Visit Some Of My Real World and Live Projects made with CMS:</h3>
                 <Link to="https://www.seko-soko.de/">
