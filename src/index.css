@@ -120,3 +120,8 @@ footer a {
 .swiper-3d .swiper-slide-shadow {
     background: none;
 }
+
+
+.swiper-cards {
+    overflow: hidden;
+}
