@@ -53,8 +53,23 @@ export const data =
             ],
             "image": "images/sneakers-project.jpg"
         },
+
         {
             "id": 4,
+            "title": "The Dog API",
+            "description": "The Dog API is a RESTful API that provides access to images",
+            "link": "https://main--dog-gallery-api.netlify.app/",
+            "gitlink": "https://github.com/CipiVlad/dogBreed_API",
+            "tools": [
+                "React",
+                "Typescript",
+                "React Router",
+                "vite",
+            ],
+            "image": "images/dogAPI_screenshot.png"
+        },
+        {
+            "id": 5,
             "title": "Pricing Components",
             "description": "Built with React, Typescript and SCSS.",
             "link": "https://cipivlad.github.io/pricing_components/",
@@ -70,7 +85,7 @@ export const data =
             "image": "images/screenshot_pricing_components.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Time Tracking Dashboard",
             "description": "This project focus lies on Grid and Flexbox.",
             "link": "https://cipivlad.github.io/time_tracking_dashboard/",
@@ -83,7 +98,7 @@ export const data =
             "image": "images/screenshot_timetrackingdashboard.png"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Booking Notes Panel for Admins",
             "description": "An App for BnB Admins to keep a smooth workflow going. ",
             "link": "https://cipivlad.github.io/bookingNotes/",
@@ -97,7 +112,7 @@ export const data =
             "image": "images/bookingNotes/bookingNotes.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Social Media Dashboard",
             "description": "This App is built with tailwindcss, styled-components and React.",
             "link": "https://cipivlad.github.io/social_media_dashboard",
@@ -128,7 +143,7 @@ export const data =
 
 
         {
-            "id": 5,
+            "id": 9,
             "title": "The Design Shop",
             "description": "A clean look and feel for your online store.",
             "link": "https://cipivlad.github.io/PROJEKT-DESIGN-SHOP/",
@@ -142,7 +157,7 @@ export const data =
             "image": "images/designshop_screenshot.png"
         },
         {
-            "id": 6,
+            "id": 10,
             "title": "BnB Landing Page",
             "description": "A bootstrap intro landing page template.",
             "link": "https://cipivlad.github.io/bootstrap_intro_b-b_page/",
