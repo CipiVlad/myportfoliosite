@@ -1,7 +1,7 @@
 export const data =
     [
         {
-            "id": 1,
+            "id": 0,
             "title": "Beautiful designed Landing Page.",
             "description": "VanillaJS, CSS and HTML.",
             "link": "https://sunny-side-landingpage-frontendmentor.netlify.app/",
@@ -17,7 +17,7 @@ export const data =
             "image": "images/sunnysite.png"
         },
         {
-            "id": 2,
+            "id": 1,
             "title": "This is a Multi Step Form Web App.",
             "description": "Built in Typescript, React and SCSS.",
             "link": "https://multistep-fm-challenge.netlify.app/",
@@ -35,7 +35,7 @@ export const data =
         },
 
         {
-            "id": 3,
+            "id": 2,
             "title": "An E-commerce Web App",
             "description": "Showcase of a E-commerce Web App Landing Page.",
             "link": "https://cipivlad.github.io/ecommerce-product-page/",
@@ -52,6 +52,20 @@ export const data =
 
             ],
             "image": "images/sneakers-project.jpg"
+        },
+        {
+            "id": 3,
+            "title": "A Photographer Portfolio",
+            "description": "Use this template to showcase your portfolio.",
+            "link": "https://main--photographer-portfolio-template.netlify.app/",
+            "gitlink": "https://github.com/CipiVlad/photographer_portfolio_template?tab=readme-ov-file",
+            "tools": [
+                "js",
+                "html",
+                "css",
+                "vite"
+            ],
+            "image": "images/screenshot_photographer_portfolio.png"
         },
 
         {
